@@ -2,6 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { RouterTestingModule } from '@angular/router/testing';
 import { FormBuilder, ReactiveFormsModule } from '@angular/forms';
+import { ToastModule } from 'primeng/toast';
 import { UserService } from './services/user.service';
 import { MessageService } from 'primeng/api';
 import { of } from 'rxjs';
@@ -22,6 +23,7 @@ describe('AppComponent', () => {
     await TestBed.configureTestingModule({
       imports: [
         RouterTestingModule,
+        ToastModule,
         ReactiveFormsModule
       ],
       declarations: [AppComponent],
