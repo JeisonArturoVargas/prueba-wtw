@@ -10,7 +10,7 @@ Estas instrucciones te permitirán despleguar el proyecto en tu maquina
 Antes de comenzar, asegúrate de tener instalado lo siguiente:
 
 - [.NET 6.0 SDK](https://dotnet.microsoft.com/download/dotnet/6.0)
-- [Node.js](https://nodejs.org/) (que incluye npm)
+- [Node.js](https://nodejs.org/) (v18.16.0 que incluye npm)
 - [Angular CLI](https://angular.io/cli) versión 16.2.0
 - [SQL Server](https://dev.mysql.com/downloads/mysql/) (o cualquier base de datos que estés utilizando)
 
@@ -60,5 +60,5 @@ npm install
 nano src/environments/environment.ts 
 
 # Ejecuta el servidor de desarrollo
-ng serve
+npm start
 ```
