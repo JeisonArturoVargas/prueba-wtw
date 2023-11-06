@@ -54,11 +54,11 @@ git clone https://github.com/JeisonArturoVargas/prueba-wtw.git
 cd prueba-wtw/Front-prueba-wtw
 
 # Instala las dependencias con npm
-npm install
+npm install o yarn install
 
 # Configura el archivo environment.ts con la URL del backend
 nano src/environments/environment.ts 
 
 # Ejecuta el servidor de desarrollo
-npm start
+npm start o yarn start
 ```
