@@ -1,0 +1,18 @@
+<div class="dashboard-container">
+  <!-- ... tu marcado para el dashboard ... -->
+  <h1 class="titulo-dashboard">Dashboard</h1>
+  <!-- Muestra el token aquí -->
+  <div *ngIf="token" class="burbuja-token">
+    <strong>Tu token es: </strong>
+    <span>{{ token }}</span>
+    <br>
+    <strong>Expira el: </strong>
+    <span>{{ expiration }}</span>
+
+    <div *ngIf="!token">
+      <p>No hay token almacenado en localStorage.</p>
+    </div>
+
+  </div>
+  <button (click)="logout()" class="boton-dashboard boton-cerrar-sesion">Cerrar Sesión</button>
+</div>
