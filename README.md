@@ -1,6 +1,5 @@
 # prueba-wtw
-
-Prueba tecnica 
+Sistema de registro y autenticación de usuarios implementando toke JWT 
 
 ## Comenzando
 
